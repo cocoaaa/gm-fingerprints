@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
   <!-- Replace the content tag with appropriate information -->
   <meta name="description" content="DESCRIPTION META TAG">
-  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
-  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
-  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG" />
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG" />
+  <meta property="og:url" content="URL OF THE WEBSITE" />
   <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
   <meta property="og:image" content="static/image/your_banner_image.png" />
-  <meta property="og:image:width" content="1200"/>
-  <meta property="og:image:height" content="630"/>
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
 
 
   <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
@@ -24,17 +25,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <title>Academic Project Page</title>
+  <title>ManiFPT: Fingerprints of GMs</title>
   <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
-  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
-  rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
 
   <link rel="stylesheet" href="static/css/bulma.min.css">
   <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
   <link rel="stylesheet" href="static/css/bulma-slider.min.css">
   <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
-  <link rel="stylesheet"
-  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <link rel="stylesheet" href="static/css/index.css">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -44,58 +43,100 @@
   <script src="static/js/bulma-slider.min.js"></script>
   <script src="static/js/index.js"></script>
 </head>
+
 <body>
 
-
+<!-- todo: i don't like these automatically scrolling of images - make it so that it clicks to the next position as user clicks the arrows -->
   <section class="hero">
     <div class="hero-body">
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">Academic Project Page</h1>
+            <h1 class="title is-1 publication-title">ManiFPT: Defining and Analyzing Fingerprints of Generative Models
+            </h1>
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">First Author</a><sup>*</sup>,</span>
-                <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Second Author</a><sup>*</sup>,</span>
-                  <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Third Author</a>
-                  </span>
-                  </div>
+                <a href="https://www.linkedin.com/in/hayleysong/" target="_blank">Hayley Song</a>,
+              </span>
+              <span class="author-block">
+                <a href="#" target="_blank">Mahyar Khayatkhoei</a>,
+              </span>
+              <span class="author-block">
+                <a href="#" target="_blank">Wael AbdAlmageed</a>
+              </span>
+            </div>
 
-                  <div class="is-size-5 publication-authors">
-                    <span class="author-block">Institution Name<br>Conferance name and year</span>
-                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
-                  </div>
+            <div class="is-size-5 publication-authors">
+              <span class="author-block">University of Southern California<br>USC Information Sciences Institute
+                <br> CVPR 2024
+              </span>
+            </div>
 
-                  <div class="column has-text-centered">
-                    <div class="publication-links">
-                         <!-- Arxiv PDF link -->
-                      <span class="link-block">
-                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
-                        class="external-link button is-normal is-rounded is-dark">
-                        <span class="icon">
-                          <i class="fas fa-file-pdf"></i>
-                        </span>
-                        <span>Paper</span>
-                      </a>
+            <div class="column has-text-centered">
+              <div class="publication-links">
+                <!-- Arxiv PDF link -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/pdf/2402.10401.pdf" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
                     </span>
+                    <span>Paper</span>
+                  </a>
+                </span>
 
-                    <!-- Supplementary PDF link -->
-                    <span class="link-block">
-                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
-                      class="external-link button is-normal is-rounded is-dark">
-                      <span class="icon">
-                        <i class="fas fa-file-pdf"></i>
-                      </span>
-                      <span>Supplementary</span>
-                    </a>
-                  </span>
+                <!-- Supplementary PDF link -->
+                <!-- <span class="link-block">
+                  <a href="static/pdfs/supplementary_material.pdf" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                    </span>
+                    <span>Supplementary</span>
+                  </a>
+                </span> -->
 
-                  <!-- Github link -->
-                  <span class="link-block">
-                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
+
+                <!-- Supplementary PDF link -->
+                <span class="link-block">
+                                  <a href="#" target="_blank"
+                                    class="external-link button is-normal is-rounded is-dark">
+                                    <span class="icon">
+                                      <i class="fas fa-file-pdf"></i>
+                                    </span>
+                                    <span>Poster</span>
+                                  </a>
+                                </span>
+
+
+
+
+                <!-- ArXiv abstract Link -->
+                <!-- <span class="link-block">
+                  <a href="https://arxiv.org/abs/2402.10401" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                    </span>
+                    <span>arXiv</span>
+                  </a>
+                </span> -->
+
+                <!-- Slides link -->
+                <span class="link-block">
+                  <a href="#" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Slides</span>
+                  </a>
+                </span>
+
+                <!-- Github link -->
+                <span class="link-block">
+                  <a href="https://github.com/cocoaaa/gm-fpts" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fab fa-github"></i>
@@ -103,42 +144,39 @@
                     <span>Code</span>
                   </a>
                 </span>
-
-                <!-- ArXiv abstract Link -->
-                <span class="link-block">
-                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
-                  class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                    <i class="ai ai-arxiv"></i>
-                  </span>
-                  <span>arXiv</span>
-                </a>
-              </span>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
 
-<!-- Teaser video-->
-<section class="hero teaser">
-  <div class="container is-max-desktop">
-    <div class="hero-body">
-      <video poster="" id="tree" autoplay controls muted loop height="100%">
-        <!-- Your video here -->
-        <source src="static/videos/banner_video.mp4"
-        type="video/mp4">
-      </video>
-      <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
-      </h2>
+
+<!-- Teaser video/image: Definition of gm artifacts, fingerprints-->
+  <section class="hero teaser">
+    <div class="container is-max-desktop">
+      <div class="hero-body">
+
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-four-fifths">
+            <div align='center'>
+              <a><img src="static/images/defn-gm-fpts.png"></a>
+            </div>
+            <div class="content has-text-justified">
+            <b>Our proposed manifold-based definition of artifacts and fingerprints of a generative model</b>.
+              <br>We estimate the true data manifold M using real samples and compute an artifact a as the difference between a gen- erated sample and its closest point in the real
+              dataset. 
+              We define the fingerprint F of a generative model as the set of all its artifacts.
+            </div>
+          </div>
+        </div>
+      </div>  
     </div>
-  </div>
-</section>
+  </section>
 <!-- End teaser video -->
+
 
 <!-- Paper abstract -->
 <section class="section hero is-light">
@@ -147,8 +185,27 @@
       <div class="column is-four-fifths">
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+          <p>Recent works have shown that generative models leave
+            traces of their underlying generative process on the generated samples, broadly referred to as fingerprints
+            of a
+            generative model, and have studied their utility in detecting
+            synthetic images from real ones. However, the extend to
+            which these fingerprints can distinguish between various
+            types of synthetic image and help identify the underlying
+            generative process remain under-explored. In particular,
+            the very definition of a fingerprint remains unclear, to our
+            knowledge. To that end, in this work, we formalize the definition of artifact and fingerprint in generative
+            models,
+            propose
+            an algorithm for computing them in practice, and finally
+            study its effectiveness in distinguishing a large array of different generative models. We find that using
+            our proposed
+            definition can significantly improve the performance on the
+            task of identifying the underlying generative process from
+            samples (model attribution) compared to existing methods.
+            Additionally, we study the structure of the fingerprints, and
+            observe that it is very predictive of the effect of different
+            design choices on the generative process.
           </p>
         </div>
       </div>
@@ -158,155 +215,348 @@
 <!-- End paper abstract -->
 
 
-<!-- Image carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-       <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel1.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          First image description.
-        </h2>
+
+<!-- problem statement -->
+  <!-- <section class="section">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column is-four-fifths">
+  
+          <h2 class="title is-3" align='center'> 
+            Key illustration of problem statement
+          </h2>
+  
+          <p align="center">
+            <a><img src="#todo" width="95%" height="120%"></a>
+          </p>
+          Problem of Model Attribution for Vision Generative Models
+           #todo:  add a simple, clear illustration of model attribution problem 
+        </div>
       </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          Second image description.
+    </div>
+  </section> -->
+  <!-- End problem statement  -->
+
+<!-- Visualization of our defn of artifacts and fingerprints of GMs -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column">
+      <!-- <div class="column is-four-fifths"> -->
+
+        <h2 class="title is-3" align='center'>
+          Visualization of our definition of artifacts of GMs
         </h2>
+        <p align="center">
+          <img src="static/images/viz-gm-artifacts.png" alt="visualization of our gm artifacts" />
+
+        </p>
+        <p>
+          <!-- <b>Our experimental dataset of generation models.</b> -->
+        We visualize artifacts in generated images under our manifold-based definition (see Sec. 3.1).
+        Each row shows an original image generated by a generative model, followed by its projection to data manifolds 
+        in RGB (x<sup>*</sup><sub>RGB</sub>), Frequency (x<sup>*</sup><sub>FREQ</sub>),
+        and learned feature spaces of SL (x<sup>*</sup><sub>SL</sub>) and SSL (x<sup>*</sup><sub>SSL</sub>). The third and fourth columns show our definition of artifacts
+        in the RGB and frequency spaces, respectively.
+         Note that artifacts in SL and SSL spaces are not shown as they are
+        2048-long vectors (in the embedding space of a pretrained ResNet50).
+        </p>
       </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-         Third image description.
-       </h2>
-     </div>
-     <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="MY ALT TEXT"/>
-      <h2 class="subtitle has-text-centered">
-        Fourth image description.
-      </h2>
     </div>
   </div>
-</div>
-</div>
 </section>
-<!-- End image carousel -->
 
 
 
 
-<!-- Youtube video -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <!-- Paper video. -->
-      <h2 class="title is-3">Video Presentation</h2>
-      <div class="columns is-centered has-text-centered">
+<!-- Experiments: dataset, key results -->
+<section class="section">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
         <div class="column is-four-fifths">
+
+          <h2 class="title is-3" align='center'>
+            New and improved dataset of SoTA vision generative models         
+          </h2>
+          <p align="center">
+            <img src="static/images/our-gm-dataset.png" alt="our gm dataset" style="width:100%"/>
+            
+          </p>
+          <p>
+          <!-- <p align="center"> -->
+            <b>Our experimental dataset of generation models.</b>
+             We collect images from a diverse set of generative models trained on four
+            different datasets (CIFAR10, CelebA, CelebA-HQ(256), FFHQ(256)) and study model fingerprints and their attributability.
+            <!-- <br> -->
+            <b>Real:</b> training datasets of the generative models. 
+            <br>
+            <b>Score:</b> score-based (aka. diffusion) models.
+          </p>
+</div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Method: our model attribution workflow -->
+  <section class="section">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column is-four-fifths">
+  
+          <h2 class="title is-3" align='center'>
+            Our Model Attribution Method
+          </h2>
+  
+          <p align="center">
+            <a><img src="static/images/our-workflow.png"></a> 
+          </p>
+          <!-- Our attribution method. -->
+          We propose a model attribution method based on our definition of artifact as deviations from an
+          estimate data manifold. 
           
-          <div class="publication-video">
-            <!-- Youtube embed code here -->
-            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <ul>
+
+          </ul>
+          <li>
+          <!-- Step 1: -->
+            Given input images X_G, we first map the images to a chosen embedding space
+            (RGB, Frequency, a feature space of a
+            pretrained supervised-learning (SL) or self-supervised leanring (SSL) network)
+            and compute their artifacts <code>a</code>.
+          </li>
+          <li> 
+            <!-- Step 2: -->
+          We then pass the artifacts to a ResNet50-based attribution network (Model Attributor) and fine-tune the network to identify the source
+          generative model under the (multi-class) cross-entropy loss.
+          </li>
+
+  
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Experiments: Key Results  -->
+  <section class="section">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column is-four-fifths">
+  
+          <h2 class="title is-3" align='center'>
+            Key Results
+          </h2>
+          
+        <!-- exp: ma accuracy -->   
+        <h3 class="title is-4 " align='left'>
+          Model attribution
+        </h3>
+          <p>We evaluate different artifact features on the task of predicting the source generative model
+          of a generated sample.
+          Separability of the feature spaces are measured in FD ratio (FDR).
+          Higher FDR means better separability.
+          Our methods (<code>ManiFPT</code>) based on the proposed definition of artifacts outperform all baseline methods on four
+          different datasets.
+        </p>
+        <br> 
+          <figure>
+            <p align="center">
+              <img src="static/images/results-1-acc.png">
+            <!-- <b>Model attribution results:</b> -->
+            <figcaption><b>Model attribution accuracies.</b>
+              GM-{CIFAR10,CelebA,CHQ,FFHQ}: datasets of images genereated by models trained on 
+              CIFAR10, CelebA, CelebA-HQ(256) and FFHQ(256), respectively.
+            </figcaption>
+          </figure>
+
+        <br><br><br>
+        <!-- exp:tsne -->
+        <h3 class="title is-4" align='left'>
+          tSNE of fingerprint features using our method vs. baselines 
+        </h3>
+        <p>
+
+        </p>
+        
+        <br>
+        <figure>
+          <p align="center">
+            <img src="static/images/tsne-gmfpts.png">
+          </p>
+          <figcaption>
+            <b>tSNE plot of learned features for model attribution on GM-FFHQ.</b>
+          Features learnt using our definition of artifacts (f) achieve better separation between samples from different
+          generative models (shown in different colors). (a) shows tSNE of generated samples in pixel space, (b) in the latent
+          space of ResNet50 pretrained on ResNet50, (c-f) in the penultimate layer of the classifier proposed by each method
+          trained on the task of model attribution.
+            
+          </figcaption>
+        </figure>
+             
+        <br><br><br>
+        <!-- exp: cross-dataset generalizability -->
+        <h3 class="title is-4" align='left'>
+          Cross-dataset Generalizability of Fingerprints
+        </h3>
+        <p>
+          We evaluate how well baselines and our fingerprints generalize
+          across training datasets. We consider two scenarios: (i) generaliza- tion across GM-CIFAR10 and GM-CelebA, and (ii)
+          generalization across GM-CHQ and GM-FFHQ. For each case, we train attribu- tion methods on one set of generative models
+          (e.g. GM-CIFAR10) and test on a different set of models (e.g. GM-CelebA). Our artifact-based attribution method
+          outperforms all baseline methods in both scenarios. 
+        </p>
+        
+        <br>
+        <figure>
+          <p align="center">
+            <img src="static/images/result-2.png">
+          </p>
+          <figcaption>
+            <b>Generalization of model attribution across datasets.</b>
+            C10: CIFAR-10. CA: CelebA. CHQ: CelebA-HQ.
+          </figcaption>
+        </figure>
+
+
+
+        <br><br><br>
+        <!-- exp: clustering-->
+          <h3 class="title is-4" align='center'>
+            Clustering structure of fingerprints of GMs
+          </h3>
+          <p>
+            We study the structure of GM fingerprints by studying the alignment of their clustering pattern to the hyperparameters
+            used in the design of generative models (e.g., type of up/down-sampling, normalization and loss function).
+            Overall, we observe that upsampling and loss functions best match the clustering of GM artifacts, experimentally
+            confirming the general intuition about the sources of limitations in generative models and supporting the utility of our
+            definitions in studying the model behaviors.
+          </p>
+          
+         <figure>
+          <p align="center">
+            <a><img src="static/images/result-3-clustering.png"></a>
+          </p>
+          <figcaption>
+            <b>Clustering structure of fingerprints.</b>
+            Types of upsampling and loss best align with the clustering.
+            <br> NL: Non-linearity
+          </figcaption>
+        </figure>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+  <!-- #todo: commont out below two === -->
+<!-- Experiments: Key Results  -->
+<!-- <section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-four-fifths">
+
+        <h2 class="title is-3" align='center'>
+          Cross-dataset Generalizability of Fingerprints
+        </h2>
+      -->
+        <!-- exp2 -->
+        <!-- <p align="center">
+          <a><img src="static/images/results-2.png"></a>
+        </p>
+        <b>Generalizability results. #todo add description</b>
+
+      </div>
+    </div>
+  </div>
+</section>  -->
+
+
+<!-- Experiments: Key Results  -->
+<!-- <section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-four-fifths">
+
+        <h2 class="title is-3" align='center'>
+        Clustering structure of fingerprints of GMs
+        </h2>
+
+      -->
+        <!-- exp3 -->
+        <!-- <p align="center">
+          <a><img src="static/images/results-3-clustering.png"></a>
+        </p>
+        <b>Clustering structure of fingerprints.</b>
+        Types of upsampling and loss best align with the clustering.
+        NL: Non-linearity
+      </div>
+    </div>
+  </div>
+</section>  -->
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>
+        @misc{song2024manifpt,
+        title={ManiFPT: Defining and Analyzing Fingerprints of Generative Models},
+        author={Hae Jin Song and Mahyar Khayatkhoei and Wael AbdAlmageed},
+        year={2024},
+        eprint={2402.10401},
+        archivePrefix={arXiv},
+        primaryClass={cs.LG}
+        }
+      </code></pre>
+    </div>
+  </section>
+  <!--End BibTex citation -->
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-8">
+          <div class="content">
+
+            <p>
+              This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template"
+                target="_blank">Academic Project Page Template</a> which was adopted from the <a
+                href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+              You are free to borrow the of this website, we just ask that you link back to this page in the footer.
+              <br> This website is licensed under a <a rel="license"
+                href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+                Commons Attribution-ShareAlike 4.0 International License</a>.
+            </p>
+
           </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
-<!-- End youtube video -->
+  </footer>
 
+  <!-- Statcounter tracking code -->
 
-<!-- Video carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3">Another Carousel</h2>
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
-          <video poster="" id="video1" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel1.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video2">
-          <video poster="" id="video2" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel2.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video3">
-          <video poster="" id="video3" autoplay controls muted loop height="100%">\
-            <!-- Your video file here -->
-            <source src="static/videos/carousel3.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End video carousel -->
+  <!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
 
+  <!-- End of Statcounter Code -->
 
+</body>
 
-
-
-
-<!-- Paper poster -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title">Poster</h2>
-
-      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
-          </iframe>
-        
-      </div>
-    </div>
-  </section>
-<!--End paper poster -->
-
-
-<!--BibTex citation -->
-  <section class="section" id="BibTeX">
-    <div class="container is-max-desktop content">
-      <h2 class="title">BibTeX</h2>
-      <pre><code>BibTex Code Here</code></pre>
-    </div>
-</section>
-<!--End BibTex citation -->
-
-
-  <footer class="footer">
-  <div class="container">
-    <div class="columns is-centered">
-      <div class="column is-8">
-        <div class="content">
-
-          <p>
-            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
-            You are free to borrow the of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
-            Commons Attribution-ShareAlike 4.0 International License</a>.
-          </p>
-
-        </div>
-      </div>
-    </div>
-  </div>
-</footer>
-
-<!-- Statcounter tracking code -->
-  
-<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
-
-    <!-- End of Statcounter Code -->
-
-  </body>
-  </html>
+</html>

@@ -134,4 +134,10 @@ body {
 }
 
 
-
+figcaption {
+  /* background-color: blue; */
+  color: rgb(0, 0, 0);
+  font-style: italic;
+  padding: 2px;
+  text-align: center;
+}
