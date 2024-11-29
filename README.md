@@ -1,4 +1,5 @@
-# GM Fingerprints
+# ManiFPT: Defining and Analyzing Fingerprints of Generative Models
+Homepage
 
 ## Updates
 - **March, 2024**: We will soon release our GM dataset consisting of 14+ state-of-the-art (vision) generative models as well as the code for our paper.
